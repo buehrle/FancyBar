@@ -13,7 +13,7 @@ public class Main extends BlurredJFrame implements MouseListener {
 	
 	public Main() {
 		this.setUndecorated(true);
-		this.setBackground(new Color(0,0,0,1));
+		this.setBackground(new Color(0, 0, 0, 1));
 		this.setTitle("FancyBar");
 		this.setDefaultCloseOperation(EXIT_ON_CLOSE);
 		this.setSize(1920, 1080);
@@ -22,7 +22,7 @@ public class Main extends BlurredJFrame implements MouseListener {
 		this.setAlwaysOnTop(true);
 		this.setVisible(true);
 		
-		init();
+		super.init();
 	}
 
 	@Override
